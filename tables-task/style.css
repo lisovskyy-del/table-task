@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+
+:root {
+  --first-column-color: #dcdddc;
+  --second-column-color: #17d0d3;
+  --third-column-color: #8ac048;
+  --fourth-column-color: #fecb29;
+  --fivth-column-color: #f44337;
+  --text-color: #6a6666;
+}
+
+body {
+  max-width: 1200px;
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+table {
+  width: 60vw;
+  height: 45vh;
+  min-width: 650px;
+  max-width: 800px;
+}
+
+caption {
+  color: rgb(114, 114, 114);
+  text-align: right;
+  font-size: 1.2rem;
+}
+
+.col-1 {
+  background-color: var(--first-column-color);
+}
+
+.col-2 {
+  width: 15%;
+  background-color: var(--second-column-color);
+}
+
+.col-3 {
+  width: 15%;
+  background-color: var(--third-column-color);
+}
+
+.col-4 {
+  width: 15%;
+  background-color: var(--fourth-column-color);
+}
+
+.col-5 {
+  width: 15%;
+  background-color: var(--fivth-column-color);
+}
+
+tbody {
+  border-bottom: 1px solid white;
+}
+
+th {
+  color: white;
+  text-align: center;
+  vertical-align: middle;
+}
+
+th:first-child {
+  color: var(--text-color);
+}
+
+td {
+  vertical-align: middle;
+  text-align: center;
+  color: white;
+}
+
+td:first-child {
+  vertical-align: middle;
+  text-align: left;
+  padding: 0.5em;
+  color: rgb(129, 129, 129);
+}
+
+td span {
+  display: inline-block;
+  height: 1.2em;
+  width: 1.2em;
+  border: 1px solid white;
+  border-radius: 50%;
+  font-size: 1.2em;
+}
+
+tfoot {
+  height: 12%;
+}
